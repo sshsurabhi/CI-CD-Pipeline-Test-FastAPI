@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  api:
+    image: datascientest/fastapi:1.0.0
+    container_name: api
+    ports:
+      - "8000:8000"
+    networks:
+      - test_net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/status"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
+
+  authentication_test:
+    build:
+      context: .
+      dockerfile: Dockerfile.authentication
+    container_name: authentication_test
+    environment:
+      - LOG=1
+    volumes:
+      - ./api_test.log:/app/api_test.log
+    depends_on:
+      - api
+    networks:
+      - test_net
+
+  authorization_test:
+    build:
+      context: .
+      dockerfile: Dockerfile.authorization
+    container_name: authorization_test
+    environment:
+      - LOG=1
+    volumes:
+      - ./api_test.log:/app/api_test.log
+    depends_on:
+      - api
+    networks:
+      - test_net
+
+  content_test:
+    build:
+      context: .
+      dockerfile: Dockerfile.content
+    container_name: content_test
+    environment:
+      - LOG=1
+    volumes:
+      - ./api_test.log:/app/api_test.log
+    depends_on:
+      - api
+    networks:
+      - test_net
+
+networks:
+  test_net:
+    driver: bridge

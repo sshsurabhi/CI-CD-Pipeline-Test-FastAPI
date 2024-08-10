@@ -1,0 +1,9 @@
+# Dockerfile.auth
+FROM python:3.8.10
+WORKDIR /app
+
+COPY ./src_project/authentication_test.py /app
+
+RUN pip install requests
+
+CMD ["python", "authentication_test.py"]

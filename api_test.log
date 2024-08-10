@@ -1,0 +1,904 @@
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="clementine"
+            | password="mandarine"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="clementine"
+            | password="mandarine"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="clementine"
+            | password="mandarine"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="clementine"
+            | password="mandarine"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="clementine"
+            | password="mandarine"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="clementine"
+            | password="mandarine"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="clementine"
+            | password="mandarine"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="life is beautiful"
+                expected result = positive score
+                actual result = 0.5994
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v1/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+                ============================
+                    Content test
+                ============================
+                request done at "/v2/sentiment"
+                | sentence="that sucks"
+                expected result = negative score
+                actual result = -0.3612
+                ==> SUCCESS
+                
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authentication test
+            ============================
+            request done at "/permissions"
+            | username="clementine"
+            | password="mandarine"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="bob"
+            | password="builder"
+            expected result = 403
+            actual result = 403
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v1/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
+
+            ============================
+                Authorization test
+            ============================
+            request done at "/v2/sentiment"
+            | username="alice"
+            | password="wonderland"
+            expected result = 200
+            actual result = 200
+            ==> SUCCESS
+            
