@@ -1,0 +1,460 @@
+    1  cat .bashrc 
+    2  ls -la
+    3  cat .bash_history
+    4  vim .bash_history
+    5  exit
+    6  tmux
+    7  docker ps
+    8  docker stop 8f889ce88677
+    9  docker ps
+   10  docker image ls
+   11  docker stop 983b9e3eab73
+   12  docker stop final_conclusion_authz_test
+   13  docker ps
+   14  mkdir final_conclusion
+   15  cd final_conclusion/
+   16  docker image ls
+   17  sudo apt-get update
+   18  python
+   19  python3
+   20  mkdir src_project
+   21  docker image pull datascientest/fastapi:1.0.0
+   22  docker container run -p 8000:8000 datascientest/fastapi:1.0.0
+   23  docker ps
+   24  ls
+   25  cd src_project/
+   26  nano auth_test.py
+   27  nano authz_test.py
+   28  nano content_test.py
+   29  cd ..
+   30  nano Dockerfile
+   31  python3
+   32  nano Dockerfile
+   33  nano docker-compose.yaml
+   34  mv Dockerfile Dockerfile.auth
+   35  docker-compose build
+   36  ls
+   37  nano Dockerfile.auth
+   38  nano Dockerfile.authz
+   39  nano Dockerfile.content
+   40  nano setup.sh
+   41  chmod +x setup.sh 
+   42  ./setup.sh
+   43  dpcker ps
+   44  docker ps
+   45  cd final_conclusion/
+   46  ls
+   47  nano api_test.log/
+   48  cat api_test.log/
+   49  cat api_test.log
+   50  cd api_test.log/
+   51  l
+   52  ls
+   53  ls -a
+   54  cd .
+   55  cd ..
+   56  ls
+   57  ls api_test.log/.
+   58  cd src_project/
+   59  ls
+   60  cd ..
+   61  cd api_test.log/
+   62  ls -a
+   63  ls -.
+   64  ls -..
+   65  ls --..
+   66  ls -a
+   67  ls -all
+   68  ls -a
+   69  cd ..
+   70  ./setup.sh
+   71  cd src_project/
+   72  nano auth_test.py 
+   73  ./setup.sh
+   74  cd ..
+   75  ./setup.sh
+   76  nano src_project/auth_test.py 
+   77  nano Dockerfile.auth
+   78  nano Dockerfile.authz
+   79  nano Dockerfile.content
+   80  ./setup.sh
+   81  nano src_project/auth_test.py
+   82  ./setup.sh
+   83  docker system prune
+   84  ./setup.sh
+   85  ls
+   86  cat api_test.log 
+   87  docker image ls
+   88  docker ps
+   89  docker image
+   90  docker ps
+   91  docker image ls
+   92  ls
+   93  rm -f mmmy_docker.yml 
+   94  ls
+   95  ./setup.sh
+   96  nano src_project/content_test.py 
+   97  ls
+   98  nano src_project/auth_test.py
+   99  nano src_project/authz_test.py 
+  100  nano src_project/auth_test.py
+  101  rm -f api_test.log 
+  102  ./setup.sh
+  103  cat api_test.log 
+  104  ./setup.sh
+  105  cat api_test.log 
+  106  docker system prune
+  107  curl -X GET "http://52.212.242.207:8000/v1/sentiment" -H "Content-Type: application/json" -d '{"username": "bob", "password": "builder", "sentence": "test"}'
+  108  curl -X GET "http://52.212.242.207:8000/v1/sentiment" -H "Content-Type: application/json" -d '{"username": "bob", "password": "builder", "sentence": "that sucks"}'
+  109  cd final_conclusion/src_project/
+  110  ls
+  111  cd ..
+  112  ls
+  113  cd api_test.log/
+  114  ls
+  115  ls -a
+  116  docket ps
+  117  docker ps
+  118  docker image ls
+  119  docker system prune
+  120  docker image ls
+  121  ls
+  122  ls -a
+  123  ls -l
+  124  cd ..
+  125  ls
+  126  nano docker-compose.yaml 
+  127  mv docker-compose.yaml mmmy_docker.yml
+  128  ls
+  129  nano docker-compose.yaml
+  130  nano setup.sh 
+  131  ./setup.sh
+  132  ls
+  133  rm -rf api_test.log/
+  134  ./setup.sh
+  135  docker system prune
+  136  ./setup.sh
+  137  ls
+  138  cat api_test.log 
+  139  rm -f api_test.log 
+  140  ls
+  141  ./setup.sh
+  142  nano src_project/content_test.py 
+  143  nano Dockerfile.content 
+  144  docker system prune
+  145  ./setup.sh
+  146  ls
+  147  cat api_test.log 
+  148  docker system prune
+  149  cat api_test.log 
+  150  rm -f api_test.log 
+  151  ./setup.sh
+  152  ls
+  153  cat api_test.log 
+  154  ./setup.sh
+  155  cat api_test.log 
+  156  ./setup.sh
+  157  nano src_project/content_test.py
+  158  ./setup.sh
+  159  nano src_project/content_test.py
+  160  ./setup.sh
+  161  docker system prune
+  162  ./setup.sh
+  163  docker system prune
+  164  nano src_project/content_test.py
+  165  docker system prune
+  166  ./setup.sh
+  167  mv src_project/content_test.py content.py
+  168  ls src_project/
+  169  nano src_project/content_test.py
+  170  ./setup.sh
+  171  docker system prune
+  172  nano src_project/auth_test.py
+  173  ./setup.sh
+  174  nano src_project/authz_test.py
+  175  docker system prune
+  176  ./setup.sh
+  177  nano src_project/authz_test.py
+  178  docker system prune
+  179  ./setup.sh
+  180  nano docker-compose.yaml 
+  181  ./setup.sh
+  182  docker system prune
+  183  mv src_project/content_test.py src_project/content.py
+  184  nano src_project/content_test.py
+  185  ./setup.sh
+  186  docker system prune
+  187  nano docker-compose.yaml 
+  188  ./setup.sh
+  189  nano src_project/auth_test.py 
+  190  mv src_project/auth_test.py src_project/authenticate.py
+  191  nano src_project/auth_test.py
+  192  ./setup.sh
+  193  nano src_project/authz_test.py
+  194  ./setup.sh
+  195  nano src_project/authz_test.py
+  196  mv src_project/authz_test.py src_project/authz1_test.py
+  197  nano src_project/authz_test.py
+  198  ./setup.sh
+  199  nano src_project/authz_test.py
+  200  ./setup.sh
+  201  nano src_project/authz_test.py
+  202  ./setup.sh
+  203  docker system prune
+  204  ./setup.sh
+  205  nano src_project/authz_test.py
+  206  ./setup.sh
+  207  cat api_test.log 
+  208  rm -f api_test.log 
+  209  ./setup.sh
+  210  cat api_test.log 
+  211  ./setup.sh
+  212  cd conclusion/
+  213  ./setup.sh
+  214  docker system prune
+  215  ./setup.sh
+  216  docker system prune
+  217  ./setup.sh
+  218  docker system prune
+  219  ./setup.sh
+  220  docker system prune
+  221  ./setup.sh
+  222  docker system prune
+  223  ./setup.sh
+  224  cd ..
+  225  curl http://52.212.242.207/status
+  226  curl -f http://52.212.242.207/status
+  227  cd conclusion/
+  228  ls
+  229  nano docker-compose.yaml 
+  230  ./setup.sh
+  231  docker system prune
+  232  ls
+  233  ./setup.sh
+  234  nano src_project/authentication_test.py
+  235  ./setup.sh
+  236  ls
+  237  cd CI/
+  238  ls
+  239  mv CD_Pipeline_Test_FastAPI/ CI-CD-Pipeline-Test-FastAPI
+  240  ls
+  241  pwd
+  242  cd CI-CD-Pipeline-Test-FastAPI/
+  243  pwd
+  244  ls
+  245  git init
+  246  ls
+  247  git remote add origin https://github.com/sshsurabhi/CI-CD-Pipeline-Test-FastAPI.git
+  248  git add README.md
+  249  echo "# CI-CD-Pipeline-Test-FastAPI" >> README.md
+  250  git add README.md
+  251  git status
+  252  git add .
+  253  git status
+  254  git commit -m "first commit"
+  255  git config --global --edit
+  256  git config --global user.name
+  257  git remote -v
+  258  git config --list
+  259  git config user.name
+  260  cd ~/.ssh/
+  261  ls
+  262  cat authorized_keys 
+  263  cd
+  264  ls
+  265  cd CI/CI-CD-Pipeline-Test-FastAPI/
+  266  ls
+  267  ls -a
+  268  git remote set-url origin https://github.com/sshsurabhi/CI-CD-Pipeline-Test-FastAPI.git
+  269  ssh-keygen -t rsa -b 4096 -C "surabhi.harsha@gmail.com"
+  270  eval "$(ssh-agent -s)"
+  271  ssh-add ~/.ssh/id_rsa
+  272  cat ~/.ssh/id_rsa
+  273  git remote set-url origin git@github.com:sshsurabhi/CI-CD-Pipeline-Test-FastAPI.git
+  274  git push -u origin main
+  275  git push -u origin master
+  276  git remote set-url origin git@github.com:sshsurabhi/CI-CD-Pipeline-Test-FastAPI.git
+  277  git push -u origin master
+  278  cat ~/.ssh/id_rsa
+  279  cat ~/.ssh/id_rsa.pub
+  280  git push -u origin master
+  281  ls
+  282  cd src_project/
+  283  ls
+  284  rm -f auth_test.py.save authenticate.py authz1_test.py content.py
+  285  ls
+  286  cd ..
+  287  git status
+  288  git pull
+  289  git add .
+  290  git push -u origin master
+  291  git add -u
+  292  git commit -m "Remove unwanted files"
+  293  git push -u origin master
+  294  ls
+  295  rm -f content.py
+  296  git status
+  297  git add -u
+  298  git commit -m "Remove unwanted files"
+  299  git push -u origin master
+  300  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+  301  wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | \
+  302  wget -O- https://apt.releases.hashicorp.com/gpg | \gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
+  303  echo gpg --no-default-keyring \--keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \--fingerprint
+  304  echo gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
+  305  wget -O- https://apt.releases.hashicorp.com/gpg | \gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
+  306  echo gpg --no-default-keyring \--keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \--fingerprint
+  307  echo gpg --no-default-keyring \ --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \ --fingerprint
+  308  cat /usr/share/keyrings/hashicorp-archive-keyring.gpg 
+  309  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+  310  curl --remote-name https://www.hashicorp.com/.well-known/pgp-key.txt
+  311  gpg --import pgp-key.txt
+  312  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+  313  echo gpg --no-default-keyring \--keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \--fingerprint
+  314  echo gpg --no-default-keyring \ --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \ --fingerprint
+  315  echo gpg --no-default-keyring  --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg  --fingerprint
+  316  gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
+  317  echo gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
+  318  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \sudo tee /etc/apt/sources.list.d/hashicorp.list
+  319  sudo apt update
+  320  sudo apt install apt-transport-https
+  321  sudo apt update
+  322  sudo apt install ca-certificates
+  323  sudo apt update
+  324  deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com focal main
+  325  dpkg -l | grep apt-transport-https
+  326  sudo rm /etc/apt/sources.list.d/hashicorp.list
+  327  wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
+  328  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com focal main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+  329  sudo apt update
+  330  ls /usr/lib/apt/methods/
+  331  gpg --no-default-keyring \--keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \--fingerprint
+  332  sudo apt update
+  333  sudo apt-get install terraform
+  334  terraform --version
+  335  terraform -help
+  336  kubectl version
+  337  curl -sfL https://get.k3s.io | sh -s - --write-kubeconfig-mode 644
+  338  kubectl version
+  339  k3s kubectl get nodes
+  340  mkdir kubernetes-datascientest
+  341  cd kubernetes-datascientest/
+  342  ls
+  343  cd
+  344  cd ./kubernetes-datascientest
+  345  ls
+  346  kubectl config view --raw > ~/.kube/config
+  347  helm version
+  348  cd
+  349  curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+  350  chmod 700 get_helm.sh
+  351  ./get_helm.sh 
+  352  chmod 700 get_helm.sh
+  353  helm version
+  354  cd kubernetes-datascientest/
+  355  nano main.tf
+  356  nano provider.tf
+  357  nano main.tf
+  358  terraform init
+  359  terraform plan
+  360  nano -c main.tf
+  361  terraform plan
+  362  terraform apply -auto-approve
+  363  terraform validate
+  364  kubectl get all
+  365  terraform destroy -auto-approve
+  366  cd
+  367  mkdir charts && cd charts
+  368  helm create mysql-chart
+  369  cd mysql-chart && ls
+  370  cd templates && ls
+  371  rm NOTES.txt && rm hpa.yaml && rm ingress.yaml && rm serviceaccount.yaml
+  372  nano deployment.yaml
+  373  rm deployment.yaml 
+  374  nano deployment.yaml 
+  375  cd ..
+  376  ls
+  377  nano templates/service.yaml 
+  378  rm templates/service.yaml 
+  379  nano templates/service.yaml 
+  380  nano values.yaml 
+  381  cd .. && helm create wordpress-chart
+  382  rm wordpress-chart/templates/
+  383  cd wordpress-chart/templates/
+  384  rm NOTES.txt && rm hpa.yaml && rm ingress.yaml && rm serviceaccount.yaml
+  385  rm deployment.yaml 
+  386  nano deployment.yaml 
+  387  rm service.yaml 
+  388  nano service.yaml 
+  389  cd ..
+  390  nano values.yaml 
+  391  cd ~/kubernetes-datascientest/
+  392  nano provider.tf 
+  393  mkdir aws-data2 && cd aws-data2
+  394  touch terraform.tfvars && touch variables.tf && touch provider.tf && touch instances.tf
+  395  nano provider.tf 
+  396  nano variables.tf 
+  397  nano instances.tf 
+  398  nano terraform.tfvars 
+  399  terraform validate
+  400  nano provider.tf 
+  401  terraform validate
+  402  nano instances.tf 
+  403  terraform validate
+  404  terraform init
+  405  terraform validate
+  406  terraform apply -var-file="variablesvalue.tfvars"
+  407  cd
+  408  mkdir terra-practice
+  409  cd terra-practice/
+  410  touch ebs.tf
+  411  nano ebs.tf 
+  412  cd 
+  413  cd aws-data2/
+  414  nano instances.tf 
+  415  nano variables.tf 
+  416  nano ebs.tf 
+  417  terraform validate
+  418  nano variables.tf 
+  419  nano -c  variables.tf 
+  420  nano -c  ebs.tf
+  421  terraform validate
+  422  nano -c  ebs.tf
+  423  terraform validate
+  424  nano -c  ebs.tf
+  425  nano variables.tf 
+  426  nano instances.tf 
+  427  ls
+  428  nano provider.tf 
+  429  terraform validate
+  430  terraform apply -var-file="variablesvalue.tfvars"
+  431  ls
+  432  terraform apply -var-file="terraform.tfvars"
+  433  nano -c  ebs.tf
+  434  ls
+  435  nano -c  variables.tf 
+  436  nano -c  ebs.tf
+  437  terraform validate
+  438  nano instances.tf 
+  439  nano -c instances.tf 
+  440  terraform validate
+  441  touch output.tf
+  442  nano output.tf 
+  443  terraform validate
+  444  terraform plan
+  445  df -f
+  446  df -h
+  447  terraform versino
+  448  terraform --version
+  449  terraform version
+  450  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+  451  sudo apt-get update
+  452  sudo apt-get upgrade
+  453  sudo apt-get install -y gnupg software-properties-common
+  454  sudo apt-get autoremove
+  455  df -h
+  456  clear
+  457  terraform version
+  458  cd CI/CI-CD-Pipeline-Test-FastAPI/
+  459  ls
+  460  history > history.txt
